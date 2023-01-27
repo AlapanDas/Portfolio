@@ -1,45 +1,67 @@
-body
-{
-     background: rgb(43, 43, 43);
-     color: yellow;
-     font-size: 20px;
-     
+body {
+     color: rgb(93, 93, 93);
+     background-image: 'moon.jpg';
+     background-size: cover;
 }
 
-a:visited,a:hover,a:link,a:active{
+a {
      color: yellow;
      text-decoration: none;
 }
-p{
-     font-family: 'Maven Pro', sans-serif;
-     text-align:center;
-     color: rgb(255, 255, 0);
-     font-size: 20px;
+
+a:hover {
+     color: blue;
+     text-decoration: none;
 }
-p2{
-     text-align: center;
+
+p {
      font-family: 'Maven Pro', sans-serif;
+     text-align: justify;
+     padding: auto;
+     color: yellow;
+     font-size: 20px;
+     font-weight: 700;
+}
+
+div.socials {
+
+     font-family: 'Maven Pro', cursive;
+     /* text-align: center; */
+     color: yellow;
+     font-size: 20px;
+     font-weight: 700;
+}
+
+h1 {
      color: yellow;
 }
-name{
-     color: red;
+
+name {
+     color: white;
      font-family: 'Kavoon', cursive;
      font-size: 80px
 }
-img{
-     height: 250px;
-     float: right;
-     border-radius: 50%  ;
-     border-color: brown;
-     background: linear-gradient(red,purple);
-    
 
+img.dp {
+     width: 250px;
+     height: 260px;
+     padding: auto;
+     float: right;
+     border-radius: 50%;
 }
+
+ul.links>li {
+     display:inline-block;
+     align-items: baseline;
+     font-size: 20px;
+     color: aqua;
+}
+
 @font-face {
      font-family: 'lobsterregular';
      src: url('lobster-regular-webfont.woff2') format('woff2'),
           url('lobster-regular-webfont.woff') format('woff');
      font-weight: normal;
      font-style: normal;
- 
+
 }
