@@ -1,0 +1,45 @@
+body
+{
+     background: rgb(43, 43, 43);
+     color: yellow;
+     font-size: 20px;
+     
+}
+
+a:visited,a:hover,a:link,a:active{
+     color: yellow;
+     text-decoration: none;
+}
+p{
+     font-family: 'Maven Pro', sans-serif;
+     text-align:center;
+     color: rgb(255, 255, 0);
+     font-size: 20px;
+}
+p2{
+     text-align: center;
+     font-family: 'Maven Pro', sans-serif;
+     color: yellow;
+}
+name{
+     color: red;
+     font-family: 'Kavoon', cursive;
+     font-size: 80px
+}
+img{
+     height: 250px;
+     float: right;
+     border-radius: 50%  ;
+     border-color: brown;
+     background: linear-gradient(red,purple);
+    
+
+}
+@font-face {
+     font-family: 'lobsterregular';
+     src: url('lobster-regular-webfont.woff2') format('woff2'),
+          url('lobster-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+}
