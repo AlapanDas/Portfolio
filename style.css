@@ -1,57 +1,147 @@
 body {
-     color: rgb(93, 93, 93);
+     color: rgb(0, 0, 0);
      background-image: 'moon.jpg';
      background-size: cover;
+     background-blend-mode: screen;
+}
+
+.navbar {
+     overflow: hidden;
+     position: fixed;
+     /* Set the navbar to fixed position */
+     top: 0;
+     /* Position the navbar at the top of the page */
+     width: 99%;
+     /* Full width */
+     text-align: right;
+     background-color: #41667229;
+     font-weight: 600;
+}
+
+name {
+     color: rgb(102, 67, 58);
+     align-items: center;
+     text-align: center;
+     font-family: 'Audiowide', cursive;
+     font-size: 130px;
+     background: linear-gradient(to right, #320e08,
+               #492824, #4f6678, #2d4750);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+
+name:hover {
+     color: rgb(42, 48, 49);
+}
+
+p.Intro {
+     font-family: 'Maven Pro', sans-serif;
+     text-align: center;
+     color: rgb(42, 48, 49);
+     font-size: 21px;
+     font-weight: 900;
+}
+
+h1.Education {
+     color: #000001;
+     font-size: 45px;
+}
+
+.edu {
+     font-weight: 700;
+     font: 700;
+     width: 101%;
+     text-align: left;
+     background-color: #25303872;
+     font-family: 'Maven Pro', sans-serif;
+}
+
+ol.exps {
+     color: #4f6678;
+}
+
+.exp {
+     font-weight: 700;
+     font: 700;
+     width: 101%;
+     text-align: left;
+     background-color: #25303867;
+     font-family: 'Maven Pro', sans-serif;
+}
+
+ol.college {
+     font-weight: 300;
+     font-style: italic;
+     color: black;
+     font-family: 'Kavoon', cursive;
+}
+
+ol.hschool {
+     font-weight: 300;
+     font-style: italic;
+     color: black;
+     font-family: 'Kavoon', cursive;
+}
+
+ol.mschool {
+     font-weight: 200;
+     font-style: italic;
+     color: black;
+     font-family: 'Kavoon', cursive;
+}
+
+h1.Experience {
+     color: #82a8c5;
+}
+
+ol.exp1 {
+     font-style: italic;
+     color: #416672;
+}
+
+ol.exp2 {
+     font-style: italic;
+     color: #466f7c;
 }
 
 a {
-     color: yellow;
+     color: black;
+     font-size: 20px;
      text-decoration: none;
+}
+
+a.gcect {
+     color: rgb(42, 48, 49);
 }
 
 a:hover {
-     color: blue;
+     color: #2d4750;
      text-decoration: none;
 }
 
-p {
-     font-family: 'Maven Pro', sans-serif;
-     text-align: justify;
-     padding: auto;
-     color: yellow;
-     font-size: 20px;
-     font-weight: 700;
-}
 
 div.socials {
 
      font-family: 'Maven Pro', cursive;
      /* text-align: center; */
-     color: yellow;
+     color: red;
      font-size: 20px;
      font-weight: 700;
 }
 
-h1 {
-     color: yellow;
-}
 
-name {
-     color: white;
-     font-family: 'Kavoon', cursive;
-     font-size: 80px
-}
 
 img.dp {
      width: 250px;
      height: 260px;
      padding: auto;
      float: right;
+     top: 0;
      border-radius: 50%;
 }
 
 ul.links>li {
-     display:inline-block;
+     display: inline-block;
      align-items: baseline;
      font-size: 20px;
      color: aqua;
