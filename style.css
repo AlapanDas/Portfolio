@@ -14,10 +14,13 @@ body {
      width: 99%;
      /* Full width */
      text-align: right;
-     background-color: #41667229;
+     background-color: #41667275;
      font-weight: 600;
 }
-
+a.home
+{
+     color: #f8fdff;
+}
 name {
      color: rgb(102, 67, 58);
      align-items: center;
@@ -50,25 +53,29 @@ h1.Education {
 .edu {
      font-weight: 700;
      font: 700;
-     width: 101%;
+     width: 100%;
      text-align: left;
      background-color: #25303872;
      font-family: 'Maven Pro', sans-serif;
 }
 
 ol.exps {
-     color: #4f6678;
+     color: #627e94;
+     font-weight: 00;
 }
 
 .exp {
      font-weight: 700;
      font: 700;
-     width: 101%;
+     width: 100%;
      text-align: left;
      background-color: #25303867;
      font-family: 'Maven Pro', sans-serif;
 }
 
+ol.schools{
+     font-size: 17px;
+}
 ol.college {
      font-weight: 300;
      font-style: italic;
@@ -91,17 +98,20 @@ ol.mschool {
 }
 
 h1.Experience {
-     color: #82a8c5;
+     color: #000000;
+}
+ol.exps{
+     font-size: 17px;
 }
 
 ol.exp1 {
      font-style: italic;
-     color: #416672;
+     color: #507d8d;
 }
 
 ol.exp2 {
      font-style: italic;
-     color: #466f7c;
+     color: #578999;
 }
 
 a {
@@ -119,17 +129,26 @@ a:hover {
      text-decoration: none;
 }
 
-
+div.skills{
+     color: #000000;     
+}
+ol.skills_list{
+     font-style: italic;
+     font-weight: 600;
+     font-size: 17px;
+     color: #507d8d;
+}
 div.socials {
-
      font-family: 'Maven Pro', cursive;
      /* text-align: center; */
-     color: red;
+     color:#492824;
      font-size: 20px;
      font-weight: 700;
 }
 
-
+a.social_buttons{
+     color: #416672;
+}
 
 img.dp {
      width: 250px;
@@ -144,7 +163,6 @@ ul.links>li {
      display: inline-block;
      align-items: baseline;
      font-size: 20px;
-     color: aqua;
 }
 
 @font-face {
