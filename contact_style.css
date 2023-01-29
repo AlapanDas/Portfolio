@@ -9,10 +9,43 @@ body{
      left: 0;
      right: 0;
      top: 0;
-     opacity: 0.8;
+     opacity: 0.4;
      bottom: 0;
      z-index: -1;
    }
+h2{
+     color: orange ;
+     font-size: 40px;
+     font-weight: 700;
+}
+.feedback{
+     text-align: center;
+}
+input.name{
+     background-color: grey;
+     font-size: 20px;
+}
+input.msg{
+     background-color: grey;
+     font-size: 20px;
+}
+.input_box1{
+     color: purple;
+     font-size: 25px;
+     font-weight: 600;
+     text-align: left;
+     text-align: center;
+}
+.input_box2{
+     text-align: center;
+     color: purple;
+     font-size: 25px;
+     font-weight: 600;
+}
+button{
+     background-color: aqua;
+     font-size: 20px;
+}
 ul.buttons{
      font-weight: 600;
      font-family: sans-serif;

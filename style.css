@@ -1,6 +1,6 @@
 body {
      color: rgb(0, 0, 0);
-     background-image: 'moon.jpg';
+     background: 'moon.jpg';
      background-size: cover;
      background-blend-mode: screen;
 }
@@ -73,7 +73,7 @@ ol.exps {
 }
 
 ol.schools{
-     font-size: 17px;
+     font-size: 18px;
 }
 ol.college {
      font-weight: 300;
