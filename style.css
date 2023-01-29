@@ -4,7 +4,6 @@ body {
      background-size: cover;
      background-blend-mode: screen;
 }
-
 .navbar {
      overflow: hidden;
      position: fixed;
@@ -137,6 +136,7 @@ ol.skills_list{
      font-weight: 600;
      font-size: 17px;
      color: #507d8d;
+     background: #25303867;
 }
 div.socials {
      font-family: 'Maven Pro', cursive;

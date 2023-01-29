@@ -1,0 +1,39 @@
+body{
+     background-color: black;
+}
+#background-video {
+     width: 100vw;
+     height: 100vh;
+     object-fit: cover;
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     opacity: 0.8;
+     bottom: 0;
+     z-index: -1;
+   }
+ul.buttons{
+     font-weight: 600;
+     font-family: sans-serif;
+     color: rgb(255, 255, 255);
+     font-size: 25px;
+     padding-left: 50ch;
+     /* text-align: center; */
+}
+a{
+     color: aliceblue;
+}
+a:hover{
+     color: aqua;
+}
+h1{
+     /* background: linear-gradient(to right, rgb(255, 66, 66),
+     rgb(150, 3, 255));
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text; */
+     padding-top: 60px;
+     color: skyblue;
+     font-size: 60px;
+     text-align: center;
+}
