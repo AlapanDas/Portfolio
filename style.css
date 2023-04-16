@@ -11,9 +11,10 @@ body {
      top: 0;
      /* Position the navbar at the top of the page */
      width: 99%;
+     color: yellow;
      /* Full width */
      text-align: right;
-     background-color: #41667275;
+     /* background-color: #416672b6; */
      font-weight: 600;
 }
 a.home

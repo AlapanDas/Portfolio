@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
      <meta charset="UTF-8">
@@ -6,7 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Contact</title>
      <link rel="stylesheet" href="contact_style.css">
-     <script src=""></script>
+     <script src="contact_script.jsw"></script>
 </head>
 <body >
      <video id="background-video" autoplay loop muted poster="moon.jpg">
@@ -21,7 +20,13 @@
                <li style="opacity: 1; transform: none;"><a href="https://twitter.com/AlapanDas4">Twitter</a></li>
           </ul>
      </div>
-     <div class="feedback">
+     <form id="form">
+          Type your Name: <br><input type="text" name="FirstName" size="20px"><br>
+          Type your Message: <br><input type="text" name="LastName" size="20px"><br>
+          <input type="button" value="submit" id="dl" onclick="start()">
+        </form>
+
+     <!-- <div class="feedback">
           <h2>Send me a message</h2>
           <p class="input_box1">Name:</p>
           <input id="numb" class="name">
@@ -31,6 +36,6 @@
           <br>
           <button type="button" class="button" onclick="myfunction()">Submit</button>
           <p id="demo"></p>
-     </div>
+     </div> -->
 </body>
 </html>

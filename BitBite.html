@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BitBite</title>
+		<script src="./core.js"></script>
+		<link rel="icon" href="bit.svg" />
+	</head>
+	<body>
+		<div id="console">
+			<span id="a"><b><a href="mailto:alapandas333@gmail.com" class="__cf_email__" data-cfemail="c0a1b5b2af80a1b5b2af">alapandas3</a></b></span
+			><span>:</span><span id="c"><b>~</b></span
+			><span><b>$</b></span> <span><b>cd /about/</b></span>
+
+			<br />
+
+			<span id="a"><b><a href="mailto:alapandas333@gmail.com" class="__cf_email__" data-cfemail="9effebecf1deffebecf1">alapandas3</a></b></span
+			><span>:</span><span id="c"><b>~/about</b></span
+			><span><b>$</b></span> <span><b>cat bitbite.txt</b></span>
+
+			<br />
+			<br />
+
+			BitBite:
+
+			<br />
+			<br />
+
+			I'm a programmer that enjoys learning and creating. I have worked on many projects:
+			<br />
+			<br />
+
+			<a href="https://github.com/AlapanDas/Face-Mask-Detection-Model">&gt; <b>Face Mask Detection Model</b></a
+			>, A optimised python script to detect whether the person is wearing a mask or not
+
+			<br />
+			<br />
+
+			<a href="https://github.com/AlapanDas/WeatherApp">&gt; <b>Weather App</b></a
+			>, A windows native weather application.
+
+			<br />
+			<br />
+			
+			<a href="https://solution-challenge-39387.web.app/">&gt; <b>Code Library</b></a>, An open source website for coding and development resources.
+
+			<br />
+			<br />
+
+		<a href="https://github.com/AlapanDas/Movie-Ticket-Booking-System">&gt; <b>Movie Ticket Booking System</b></a
+			>, A python full stack project with MySQL at the back for Movie Ticket Booking.
+	
+			<br />
+			<br />
+			You can find me on:
+
+			<br />
+			<br />
+
+			<a href="https://github.com/AlapanDas">&gt; <b>GitHub</b></a>
+
+			<br />
+			<br />
+
+			<a rel="me" href="https://www.linkedin.com/in/alapan-das-0171131b3/">&gt; <b>LinkedIn</b></a>
+
+			<br />
+			<br />
+
+			<a href="https://twitter.com/AlapanDas4">&gt; <b>Twitter</b></a>
+
+			<br />
+			<br />
+			<br />
+
+			For any professional inquiries, please <a href="mailto:alapandas333@gmail.com">Email me</a>
+
+			<br />
+		</div>
+</body>
+</html>
+<style>
+	body {
+		background-color: #000;
+	}
+	#console {
+		font-family: SF Mono, monospace;
+		color: #fff;
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		font-size: 16px;
+	}
+	a {
+		color: #00ff08;
+		text-decoration:none;
+	}
+	#a {
+		color: #fffb00;
+	}
+	#c {
+		color: #00ff08;
+	}
+	#b {
+		color: #fffb00;
+	}
+</style>
+<script>
+	var text = document.getElementById('console');
+
+	var textToType = text.innerHTML.split('Auro:')[0];
+	var textToPut = text.innerHTML.split('Auro:')[1];
+
+	var typewriter = new Typewriter(text, {
+		loop: false,
+		delay: 10,
+		autoStart: true,
+		cursor: '_',
+	});
+
+	typewriter.typeString(textToType).pauseFor(100).pasteString(textToPut).start();
+</script>

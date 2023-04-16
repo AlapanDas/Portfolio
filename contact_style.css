@@ -1,15 +1,15 @@
 body{
-     background-color: black;
+     background-color: darkgray;
 }
 #background-video {
      width: 100vw;
      height: 100vh;
-     object-fit: cover;
+     object-fit:fill;
      position: fixed;
      left: 0;
      right: 0;
      top: 0;
-     opacity: 0.4;
+     opacity: 0.8;
      bottom: 0;
      z-index: -1;
    }
@@ -18,7 +18,12 @@ h2{
      font-size: 40px;
      font-weight: 700;
 }
-.feedback{
+
+button{
+     background-color: aqua;
+     font-size: 20px;
+}
+/* .feedback{
      text-align: center;
 }
 input.name{
@@ -41,11 +46,7 @@ input.msg{
      color: purple;
      font-size: 25px;
      font-weight: 600;
-}
-button{
-     background-color: aqua;
-     font-size: 20px;
-}
+}*/
 ul.buttons{
      font-weight: 600;
      font-family: sans-serif;
@@ -53,6 +54,13 @@ ul.buttons{
      font-size: 25px;
      padding-left: 50ch;
      /* text-align: center; */
+}
+
+form{
+     text-align: center;
+     font-size: 30px;
+     font-weight: 800;
+     color: purple;
 }
 a{
      color: aliceblue;
@@ -66,7 +74,7 @@ h1{
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text; */
      padding-top: 60px;
-     color: skyblue;
+     color: ora;
      font-size: 60px;
      text-align: center;
 }
